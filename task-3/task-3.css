@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: url("./background.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.main{
+    width: 800px;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: rgba(241, 241, 241, 0.2);
+    margin-top: 150px;
+    padding-top: 40px;
+}
+
+label{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 50px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+input{
+    width: 500px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    color: #ff9cab;
+    font-size: 30px;
+    margin: 20px auto 0;
+    padding: 10px;
+    box-shadow: 2px 2px rgba(210, 185, 185, 0.6);
+}
+
+input:active{
+    border: 1px solid #dac5c5;
+}
+
+
+input:focus{
+    outline: lightpink;
+    font-weight: lighter;
+}
+
+
+input::placeholder{
+    text-align: center;
+    color: #bb6969;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'monospace';
+}
+
+button{
+    position: relative;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    background: rgb(208, 195, 195,0.8);
+    color: rgb(112, 41, 74);
+    font-size: 30px;
+    width: 300px;
+    height: 70px;
+    font-weight: bolder;
+}
+
+button:active{
+    border: 1px solid #dac5c5;
+    top: 1px;
+}
+
+p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    margin-right: 130px;
+    text-align: right;
+}
